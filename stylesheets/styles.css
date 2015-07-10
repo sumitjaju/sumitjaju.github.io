@@ -213,14 +213,7 @@ p .fa-stack-1x {
 	line-height:normal;
 }
 
-p .intro {
-  margin-bottom: 35px;
-  font-size: 17px;
-  line-height: 28px;
-  font-weight: 600;
-}
-
-header p .weight3 {
+p .nameheader {
   font-family: "Comfortaa";
   font-weight: 700;
   font-style: normal;
@@ -228,6 +221,12 @@ header p .weight3 {
   line-height: 30px;
 }
 
+p .intro {
+  margin-bottom: 35px;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+}
 
 @media print, screen and (max-width: 960px) {
 
