@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:25px;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#000;
   font-weight:400;
   text-decoration:none;
 }
@@ -99,6 +99,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  text-align:center;
 }
 
 header ul {
@@ -182,6 +183,42 @@ footer {
   position:fixed;
   bottom:50px;
 }
+
+.fa-codepen:before {
+  font-size:6em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p .fa {
+  font-size:30px;
+}
+
+i.fa.fa-circle.fa-stack-1x {
+	font-size: 22px;
+	margin-left: 3px;
+	margin-top: 4px;
+}
+
+p .fa-stack {
+	line-height:0em;
+	display:inline;
+}
+
+p .fa-stack-1x {
+	line-height:normal;
+}
+
+p.intro {
+  margin-bottom: 35px;
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "Anonymous Pro";
+  font-weight: 600;
+}
+
 
 @media print, screen and (max-width: 960px) {
 
