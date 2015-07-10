@@ -22,6 +22,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:25px;
+  font-family: "Comfortaa";
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
+  font-family: "Comfortaa";
 }
 
 a {
@@ -215,7 +217,6 @@ p.intro {
   margin-bottom: 35px;
   font-size: 17px;
   line-height: 28px;
-  font-family: "Anonymous Pro";
   font-weight: 600;
 }
 
