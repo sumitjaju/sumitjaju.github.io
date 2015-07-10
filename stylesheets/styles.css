@@ -213,14 +213,14 @@ p .fa-stack-1x {
 	line-height:normal;
 }
 
-p.intro {
+p .intro {
   margin-bottom: 35px;
   font-size: 17px;
   line-height: 28px;
   font-weight: 600;
 }
 
-p.weight3 {
+p .weight3 {
 	font-family: "Comfortaa";
 	font-weight: 700;
 	font-style: normal;
