@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#36353f;
   margin:0 0 20px;
 }
 
@@ -218,6 +218,14 @@ p .intro {
   font-size: 17px;
   line-height: 28px;
   font-weight: 600;
+}
+
+.fa-flask {
+  color:#f57f5b;
+}
+
+p a {
+  color:#36353f;
 }
 
 @media print, screen and (max-width: 960px) {
