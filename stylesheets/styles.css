@@ -10,7 +10,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#36353f;
   margin:0 0 20px;
-  font-family: "Comfortaa";
+  font-family: "Quicksand";
 }
 
 p, ul, ol, table, pre, dl {
@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:25px;
-  font-family: "Comfortaa";
+  font-family: "Quicksand";
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
-  font-family: "Comfortaa";
+  font-family: "Quicksand";
 }
 
 a {
@@ -167,6 +167,7 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  line-height: 1.6em;
 }
 
 small {
