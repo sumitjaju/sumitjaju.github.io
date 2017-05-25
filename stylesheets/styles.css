@@ -17,16 +17,16 @@
 }*/
 
 body {
-  padding:50px;
+  /*padding:50px;*/
   font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica;
   color:#777;
   font-weight:300;
-  background: #5856d6;
+  /*background: #5856d6;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
   /*color:#36353f;*/
-  color:#ececec;
+  color:#36353f;
   margin:0 0 20px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica;
 }
@@ -42,9 +42,9 @@ h1, h2, h3 {
 h1 {
   font-size:20px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica;
-  font-weight: 300;
-  letter-spacing: 1.4px;
-  color: #FFE730;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color:#333;
 }
 
 h2 {
@@ -53,17 +53,17 @@ h2 {
 
 
 h3, h4, h5, h6 {
-  color:#D9C25B;
+  color:#36353f;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica;
   line-height: 1.6em;
   font-weight: 400;
 }
 
 a {
-  color:#D9C25B;
+  color:#36353f;
   font-weight:400;
   text-decoration:none;
-  font-size:14px;
+  font-size:16px;
 }
 
 a small {
@@ -74,7 +74,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -120,14 +120,15 @@ th {
 }
 
 img {
-  max-width:40%;
+  max-width:200px;
 }
 
 header {
-  width:270px;
+  width:auto;
   float:left;
   position:fixed;
-  /*text-align:center;*/
+  text-align:left;
+  margin: 100px 0px 0px 30px;
 }
 
 header ul {
@@ -191,8 +192,12 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  /*padding-bottom:50px;*/
   line-height: 1.6em;
+}
+
+.profileDetails {
+  padding:100px;
 }
 
 small {
@@ -251,9 +256,43 @@ p .intro {
   color:#f57f5b;
 }
 
+.fa-angle-left:before {
+  font-size:22px;
+}
+
 p a {
-  color:#D9C25B;
+  color:rgba(54,71,78,.7);
   font-siz:14px;
+}
+
+.interests ul li {
+  list-style:none;
+  display:inline-block;
+  padding-right: 58px;
+  margin-left: -42px;
+  font-weight: 400;
+  font-size:14px;
+}
+
+.educationWork ul li {
+  list-style:none;
+  display:inline-block;
+  padding-right: 58px;
+  margin-left: -42px;
+  font-weight: 400;
+  font-size:14px;
+}
+
+.foundersAt {
+  margin-bottom: 40px;
+}
+
+.foundersAt>div {
+  opacity: 0.2;
+}
+
+.foundersAt>div:hover {
+  opacity: 0.5;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -274,7 +313,7 @@ p a {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border-top:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -288,6 +327,12 @@ p a {
     position:absolute;
     right:50px;
     top:52px;
+  }
+
+  .profileDetails {
+    /*padding:50px;*/
+    width: auto;
+    margin:0 auto;
   }
 }
 
@@ -307,6 +352,16 @@ p a {
   pre, code {
     word-wrap:normal;
   }
+
+  section {
+    width:100%;
+  }
+
+  .profileDetails {
+    padding:50px;
+  }
+
+
 }
 
 @media print, screen and (max-width: 480px) {
@@ -317,6 +372,16 @@ p a {
   header ul {
     display:none;
   }
+
+  section {
+    width:100%;
+  }
+
+  .profileDetails {
+    padding:45px 0px 0px 0px;
+  }
+
+
 }
 
 @media print {
