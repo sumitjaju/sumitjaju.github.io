@@ -343,6 +343,8 @@ p a {
 
   header {
     padding:0;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
   }
 
   header ul, header p.view {
@@ -360,7 +362,6 @@ p a {
   .profileDetails {
     padding:50px;
   }
-
 
 }
 
