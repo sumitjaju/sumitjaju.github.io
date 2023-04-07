@@ -289,11 +289,9 @@ p a {
 	border: 2px solid #6E6F72;
     height: 89px;
     width: 218px;
-    border-radius: 10px;
-	  opacity: 0.4;
-	  margin: 30px 20px 0px 0px;
-    display: inline-block;
-	/*margin:0 auto;*/
+    border-radius: 15px;
+	margin: 30px 20px 0px 0px;
+
 }
 
 .certificates>div>a>img {
